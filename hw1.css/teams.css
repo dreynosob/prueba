@@ -1,104 +1,96 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    width:90%;
-    margin: 5rem;
-    padding: 2rem;
-     background-image: url(/hw1.css/Frisbee.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
+header {
+  width: 90%;
+  margin: 5rem;
+  padding: 2rem;
+  background-image: url(/hw1.css/Frisbee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-h1{
-    text-align: center;
-    color: #FFF;
-    line-height: 5%;
-    font-weight: bold;
-}
-
-nav{
-    font-family: Arial, "Times New Roman", serif;
-    font-size: 2rem;
-    font-weight: bold;
-}
-nav a{
-    display: inline-block;
-    width: 15%;
-    margin: 2rem;
-    padding-left: 2%;
-    color: black;
-    background: rgba(196, 194, 194, 0.339);
-    text-decoration: none;
-    text-align: center;
-    border-radius: 2rem;
-
-    
-}
-a:hover{
-    background: white;
-}
-a:focus{
-    background: rgba(255, 255, 255, 0.898);
+h1 {
+  text-align: center;
+  color: #fff;
+  line-height: 5%;
+  font-weight: bold;
 }
 
-img{
-    display: block;
-    border: solid 3px black;
-    width: 300px;
-    height: 150px;
-    margin: 1rem;
+nav {
+  font-family: Arial, "Times New Roman", serif;
+  font-size: 2rem;
+  font-weight: bold;
 }
-.left{
-    box-sizing: border-box;
-    border: 1px solid #06425C;
-    
-    background-color: olive;
-    display: inline-block;
- 
+nav a {
+  display: inline-block;
+  width: 15%;
+  margin: 2rem;
+  padding-left: 2%;
+  color: rgb(121, 119, 119);
+  background: rgba(196, 194, 194, 0.339);
+  text-decoration: none;
+  text-align: center;
+  border-radius: 2rem;
 }
-main{
-    display: flex;
-    align-content: flex-end;
-    margin: 5rem;
-    position: relative;
-    bottom: 80px;
+a:hover {
+  background: white;
 }
-section{
-    padding: 2%;
-    font-size: 2rem;
-    font-family: Arial, "Times New Roman", sans-serif;
+a:focus {
+  background: rgba(255, 255, 255, 0.898);
 }
-table{
-    
-    border-collapse: separate;
-    text-align: left;
-    border-collapse: collapse;
-    font-family: Arial, 'Times New Roman', serif;
-    font-weight:bold;
-    width: 90%;
-    margin: 0 auto;
-    
+
+img {
+  display: block;
+  border: solid 3px black;
+  width: 300px;
+  height: 150px;
+  margin: 1rem;
 }
-th , td{
-    padding: 20px;
-    
- 
+.left {
+  box-sizing: border-box;
+  border: 1px solid #06425c;
+
+  background-color: olive;
+  display: inline-block;
 }
-th{
-    border: 3px solid ;
-    border-radius: 10px 10px 3px 0;
-    
-    background: rgba(126, 126, 19, 0.802);
-    color: #FFF;
-    
-    
+main {
+  display: flex;
+  align-content: flex-end;
+  margin: 5rem;
+  position: relative;
+  bottom: 80px;
 }
-td{
-    border: 3px solid white;
-    border-radius: 5px 5px 3px 0;
-    background-color:rgba(200, 232, 200, 0.799);
-    color: #666666;
+section {
+  padding: 2%;
+  font-size: 2rem;
+  font-family: Arial, "Times New Roman", sans-serif;
+}
+table {
+  border-collapse: separate;
+  text-align: left;
+  border-collapse: collapse;
+  font-family: Arial, "Times New Roman", serif;
+  font-weight: bold;
+  width: 90%;
+  margin: 0 auto;
+}
+th,
+td {
+  padding: 20px;
+}
+th {
+  border: 3px solid;
+  border-radius: 10px 10px 3px 0;
+
+  background: rgba(126, 126, 19, 0.802);
+  color: #fff;
+}
+td {
+  border: 3px solid white;
+  border-radius: 5px 5px 3px 0;
+  background-color: rgba(200, 232, 200, 0.799);
+  color: #666666;
 }
